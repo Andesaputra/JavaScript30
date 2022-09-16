@@ -1,0 +1,12 @@
+1. ketika tombol dipencet, suara keluar
+2. ketika dipencet berulang kali, suara akan keluar setiap tombol dipencet
+3. ketika tombol dipencet, akan ada animasi dari tombolnya
+4. akan ada waktu animasi selesai
+
+ciri oop
+1. class
+2. construction
+3. inheritent
+
+
+bahasa pemograman ada defaultnya, object oriented atau functional programming
