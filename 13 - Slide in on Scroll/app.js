@@ -1,4 +1,5 @@
 // The debounce() function forces a function to wait a certain amount of time before running again.
+// this is need to be done so the scrolling function doesnt run wild while you are scrolling
 function debounce(func, wait = 20, immediate = true) {
   var timeout;
   return function () {

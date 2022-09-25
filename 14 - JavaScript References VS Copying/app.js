@@ -60,7 +60,7 @@ console.log(cap2);
 const cap3 = { ...person };
 
 // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
-// 1 deep means that it wont cover anything like the object of object
+// 1 deep means that it wont cover anything like the object of object or child of the object
 
 const wes = {
   name: "wes",
