@@ -1,6 +1,6 @@
 const addItems = document.querySelector(".add-items");
 const itemsList = document.querySelector(".plates");
-const items = JSON.parse(localStorage.getItem("items") || []); // this will either return the items as it was stored in the localstorage or just fallback showing an empty array
+const items = JSON.parse(localStorage.getItem("items")) || []; // this will either return the items as it was stored in the localstorage or just fallback showing an empty array
 
 function addItem(e) {
   e.preventDefault(); // will stop the page from reloading. By defaulh the page will reload and send the data to the external source general to server side
@@ -20,6 +20,8 @@ function addItem(e) {
 
 // this function below is creating entire list everytime we add an item
 function populateList(plates = [], platesList) {
+  console.log(plates);
+  console.log(platesList);
   platesList.innerHTML = plates
     .map((plate, i) => {
       return `
